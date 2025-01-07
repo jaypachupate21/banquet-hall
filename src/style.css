@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 20px;
+    background-color:black;
+    color:white;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:15px;
+}
+
+.gallery,
+.contact-section,
+.services-section
+{
+    padding:40px 20px;
+    text-align:center;
+}
+.image-grid img{
+    width:200px;
+    height:200px;
+    margin:10px;
+    object-fit:cover;
+
+}
+
+.footer{
+    background-color:#333;
+    color:white;
+    text-align:center;
+    padding:10px 0;
+}
+
+.booking-form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    width:300px;
+    margin:auto;
+}
+
+.contact-section form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    width:300px;
+    margin:auto;
+}
+
+
+.hero{
+    background-image:url('/public/img/1.jpg');
+    height:80vh;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.hero-content h2{
+    font-size:3rem;
+}
